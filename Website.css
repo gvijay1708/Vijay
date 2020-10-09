@@ -1,0 +1,65 @@
+.branding{
+    font-size: 17px;
+}
+.showcase {
+    padding: 140px 100px;
+    margin-top: 0px;
+    display: block;
+    height: 600px;
+    background-color: #c61b18;
+    background-position: center;
+    background: url("https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png") no-repeat;
+  }
+  @media only screen and (orientation: landscape) {
+    body {
+      background-color: grey;
+    }
+  }
+  
+  .showcase h1 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .showcase p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 1;
+    padding-bottom: 20px;
+
+  }
+  
+  .showcase hr{ 
+      width: 100px;
+      margin: auto;
+      border-width: 3px;
+      border-color: #f44336;
+  }
+
+  .section{
+  padding: 40px 0;
+
+}
+.section h2{
+    padding: 0;
+    margin: 0;
+}
+.img{
+    width: 100%;
+}
+
+.section .fa{
+    font-size:50px ;
+}
+
+@media only screen and (max-width:600px){
+  body{
+    margin-top:190px;
+  }
+
+  .showcase{
+    height:400px;
+    padding: 60px 0;
+  }
+}

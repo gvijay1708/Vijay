@@ -1,0 +1,141 @@
+
+body{
+    background:#f7f7f7;
+    font-family:"font-regular";
+    min-width: 1024px;
+    align-items:flex-end;
+    position: relative;
+
+}
+#pagewrapper{
+    position: fixed;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.form-control{
+    width: 75%;
+    color:white;
+    border-radius: 1px;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 500px;
+    width: 250%;
+    color:white;
+    border-radius: 1px;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color:black;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    min-height: 60px;
+    padding:0.01rem 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:red;
+
+}
+@media (max-width:600px){
+    header{
+        flex-wrap: wrap;
+    }
+}
+    .logo{
+        width: 75vw;
+    }
+    
+    .logo> img{
+        width: 80%;
+        height: 90%;
+        max-width: 250px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+
+    }
+
+.nav-link{
+    color:#f7f7f7;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+nav{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    width: 100%;
+    color: #000;
+    }
+.about{
+justify-content:center ;
+position: relative;
+padding: 50px;
+text-align: center;
+display:flex;
+    
+}
+.video-page{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height:100%;
+    width: 100%;
+}
+.video{
+    text-align: center;
+
+}
+.goods{
+    height:600px;
+    text-align: center;
+    background-image: url("https://lh3.googleusercontent.com/xDm6zyubx5tEKs_8rBD1QdFBZaRbIekyNc05TywXvYrlaV-N2ql5nRxIOgIJKuJUdSZOKgbJyQ=w1080-h608-p-no-v0")
+}
+
+.sub{
+    justify-content: end; 
+    color:white;
+    background-color: #000000;
+    width: 10%;
+    padding: 10px;
+
+}
+.cribe{
+    width: 25%;
+    color:white;
+    border-radius: 1px;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.snap{
+    text-align: center;
+}
+.copy{
+    padding: 0 10px;
+    text-align: end;
+
+}
+ol{
+    list-style: none;
+    justify-content: end;
+    
+}

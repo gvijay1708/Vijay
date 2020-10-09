@@ -1,0 +1,100 @@
+.welcome-section {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+    background-color: #c61b18;
+    background-position: center;
+    padding: 140px 100px;
+    background: url("https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png");
+  }
+  @media only screen and (orientation: landscape) {
+    body {
+      background-color: grey;
+    }
+  }
+  
+  .welcome-section h1 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+  }
+  .welcome-section p {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 1;
+  }
+  
+  .projects-section hr {
+    width: 450px;
+    margin: auto;
+    border-width: 3px;
+    border-color: #c61b18;
+  }
+  .project-image {
+    width: 80%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .project-image1 {
+    width: 74%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .project-image3{
+    width: 95%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .project-image4 {
+    width: 85%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .project-title {
+    color: black;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-head > h2 {
+    font-size: 50px;
+    
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 198px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  
+  
